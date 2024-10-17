@@ -3,7 +3,7 @@ Funcion area = Area_circulo(radio)
 	Definir pipi Como Real
 	
 	pipi = 3.14159265358979323846
-	area = PI * radio * radio
+	area = pipi * radio * radio
 FinFuncion
 
 Algoritmo calcular_area_circulo
