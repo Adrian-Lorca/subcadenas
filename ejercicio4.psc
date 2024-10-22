@@ -7,11 +7,11 @@ Funcion resultado = conversionMoneda(cantidad, monedaOrigen)
 	tasayen = 0.0075
 	
 	Segun monedaOrigen Hacer
-		"USD":
+		"USA":
 			resultado = cantidad * tasaDolar
-		"GBP":
+		"UK":
 			resultado = cantidad * tasalibra
-		"JPY":
+		"JPN":
 			resultado = cantidad * tasayen
 			
 		De Otro Modo:
@@ -27,7 +27,7 @@ FinFuncion
 		Escribir "Ingresa la cantidad a convertir: "
 		Leer cantidad 
 		
-		Escribir "Ingresa la moneda de origen (USD, GBP o JPY): "
+		Escribir "Ingresa la moneda de origen (USA, UK o JPN): "
 		Leer monedaOrigen
 		resultadoeuros = conversionMoneda(cantidad, monedaOrigen)
 		
